@@ -206,3 +206,39 @@
 
 /////////////////////////////////////////////////////////////////
 //truthly and falsy values
+// console.log(Boolean(0));
+// console.log(Boolean(undefined));
+// console.log(Boolean("jonas"));
+// console.log(Boolean({}));
+// console.log(Boolean(""));
+
+// const money = 0;
+
+// if (money === 0) {
+//   console.log("Dont spend it all;");
+// } else {
+//   console.log("You should get a job");
+// }
+
+///////////////////////////////////////////////////////////////////
+//equal operators
+// const age = 18;
+// if (age === 18) console.log("You just became an adult");
+
+// if (age == 18) console.log("You just became an adult (looses)");
+
+// const favorite = Number(prompt("Wats your favorite number"));
+
+// console.log(favorite);
+// console.log(typeof favorite);
+
+// if (favorite === 23) {
+//   console.log("cool!");
+// } else if (favorite === 7) {
+//   console.log("7 is also cool number");
+// } else {
+//   console.log("Number is not 23 or 7");
+// }
+
+/////////////////////////////////////////////////////////////////////////
+//boolean logic
