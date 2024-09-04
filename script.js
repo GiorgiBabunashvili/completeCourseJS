@@ -119,22 +119,69 @@
 ////////////////////////////////////////////////////////////////////////////////
 //STRINGS and TEMPLATE LITERALS
 
-const firstName = "Jonas";
-const job = "teacher";
-const birthYear = 1991;
-const year = 2037;
-const joans =
-  "I'm" +
-  " " +
-  firstName +
-  ", a " +
-  (year - birthYear) +
-  " years old " +
-  job +
-  "!";
+// const firstName = "Jonas";
+// const job = "teacher";
+// const birthYear = 1991;
+// const year = 2037;
+// const joans =
+//   "I'm" +
+//   " " +
+//   firstName +
+//   ", a " +
+//   (year - birthYear) +
+//   " years old " +
+//   job +
+//   "!";
 
-console.log(joans);
+// console.log(joans);
 
-const jonasNew = `I'am ${firstName}, a ${year - birthYear} year old ${job}!`;
-console.log(jonasNew);
-console.log(`just a normal string...`);
+// const jonasNew = `I'am ${firstName}, a ${year - birthYear} year old ${job}!`;
+// console.log(jonasNew);
+// console.log(`just a normal string...`);
+
+///////////////////////////////////////////////////////////////////////////
+//IF ELSE
+// const age = 15;
+
+// if (age >= 18) {
+//   console.log("Sarah can start driving license 🚗");
+// } else {
+//   const yearsLeft = 18 - age;
+//   console.log(`Sarah is to young. wait another ${yearsLeft} years 😉`);
+// }
+
+// const birthYear = 2012;
+// let century;
+
+// if (birthYear <= 2000) {
+//   century = 20;
+// } else {
+//   century = 21;
+// }
+
+// console.log(century);
+
+/////////////////////////////////////////////////////////////////////////
+//CHALENGE 2
+
+// const massMark = 78;
+// const heightMark = 1.69;
+// const massJohn = 92;
+// const heightJohn = 1.95;
+
+// const massMark = 95;
+// const heightMark = 1.88;
+// const massJohn = 85;
+// const heightJohn = 1.76;
+
+// const BMImark = massMark / heightMark ** 2;
+// const BMIjohn = massJohn / (heightJohn * heightJohn);
+// console.log(BMImark, BMIjohn);
+
+// if (BMImark > BMIjohn) {
+//   console.log(`Mark BMI (${BMImark}) is higher than Jonas (${BMIjohn})!`);
+// } else {
+//   console.log(`Jonas BMI (${BMImark}) is higher than Marks  (${BMIjohn})!`);
+// }
+
+///////////////////////////////////////////////////////////
