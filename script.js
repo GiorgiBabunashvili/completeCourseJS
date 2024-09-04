@@ -100,3 +100,41 @@
 
 ///////////////////////////////////////////////////////////////////////////////
 //CODE CHALENGE #1
+// const massMark = 78;
+// const heightMark = 1.69;
+// const massJohn = 92;
+// const heightJohn = 1.95;
+
+// const massMark = 95;
+// const heightMark = 1.88;
+// const massJohn = 85;
+// const heightJohn = 1.76;
+
+// const BMImark = massMark / heightMark ** 2;
+// const BMIjohn = massJohn / (heightJohn * heightJohn);
+// const markHigherBMI = BMImark > BMIjohn;
+
+// console.log(BMImark, BMIjohn, markHigherBMI);
+
+////////////////////////////////////////////////////////////////////////////////
+//STRINGS and TEMPLATE LITERALS
+
+const firstName = "Jonas";
+const job = "teacher";
+const birthYear = 1991;
+const year = 2037;
+const joans =
+  "I'm" +
+  " " +
+  firstName +
+  ", a " +
+  (year - birthYear) +
+  " years old " +
+  job +
+  "!";
+
+console.log(joans);
+
+const jonasNew = `I'am ${firstName}, a ${year - birthYear} year old ${job}!`;
+console.log(jonasNew);
+console.log(`just a normal string...`);
