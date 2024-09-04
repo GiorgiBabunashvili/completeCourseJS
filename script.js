@@ -19,4 +19,28 @@
 
 // console.log(myFirstJob);
 
-//DATA TYPES
+/////////////////////////////////////////////////////////////////////////////
+//DATA TYPES: number, string, boolean, undefined, Null, symbol, bigint
+
+// let javaScriotIsFun = true;
+// console.log(javaScriotIsFun);
+
+//console.log(typeof true);
+//console.log(typeof javaScriotIsFun);
+//console.log(typeof 23);
+//console.log(typeof "Jonas");
+
+// javaScriotIsFun = "YES!";
+// console.log(typeof javaScriotIsFun);
+
+// let year;
+// console.log(year);
+// console.log(typeof year);
+
+// year = 1991;
+// console.log(typeof year);
+
+// console.log(typeof null);
+
+//////////////////////////////////////////////////////////
+// LET CONST VAR
