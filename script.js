@@ -242,3 +242,29 @@
 
 /////////////////////////////////////////////////////////////////////////
 //chalenge 3
+// const scoreDolphins = (96 + 108 + 89) / 3;
+// const scorKoalas = (88 + 91 + 110) / 3;
+
+// console.log(scoreDolphins, scorKoalas);
+
+// if (scoreDolphins > scorKoalas) {
+//   console.log("Dolphins win the trophy");
+// } else if (scorKoalas > scoreDolphins) {
+//   console.log("Koalas win the trophy");
+// } else if (scoreDolphins === scorKoalas) {
+//   console.log("Both win the trophy");
+// }
+
+//BONUS 1
+const scoreDolphins = (97 + 112 + 101) / 3;
+const scorKoalas = (109 + 95 + 123) / 3;
+
+console.log(scoreDolphins, scorKoalas);
+
+if (scoreDolphins > scorKoalas && scoreDolphins >= 100) {
+  console.log("Dolphins win the trophy");
+} else if (scorKoalas > scoreDolphins && scorKoalas >= 100) {
+  console.log("Koalas win the trophy");
+} else if (scoreDolphins === scorKoalas) {
+  console.log("Both win the trophy");
+}
